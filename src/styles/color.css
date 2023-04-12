@@ -1,0 +1,32 @@
+.color {
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.color .colorCode {
+	background-color: rgba(255, 255, 255, 0.34);
+	padding: 4px 12px;
+	border-radius: 100px;
+	color: black;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+}
+
+.color .action-btns {
+	position: absolute;
+	bottom: 5px;
+}
